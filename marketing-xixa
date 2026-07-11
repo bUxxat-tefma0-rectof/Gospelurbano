@@ -1,0 +1,24 @@
+# 1. Criar a pasta do projeto
+mkdir marketing-xixa
+
+# 2. Entrar na pasta
+cd marketing-xixa
+
+# 3. Criar a estrutura de diretórios
+mkdir -p bots core/database core/config core/security modules/payments modules/ai modules/forms modules/products modules/plans modules/reports services/cache services/notifications services/backup utils logs
+
+# 4. Inicializar o Git
+git init
+
+# 5. Adicionar todos os arquivos
+git add .
+
+# 6. Fazer o primeiro commit
+git commit -m "Initial commit - Plataforma Marketing Xixa"
+
+# 7. Conectar ao seu repositório no GitHub
+git remote add origin https://github.com/seu-usuario/marketing-xixa.git
+
+# 8. Enviar para o GitHub
+git branch -M main
+git push -u origin main
